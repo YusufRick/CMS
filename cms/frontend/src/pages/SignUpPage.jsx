@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { useAuth } from './AuthContext';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
-import { Input } from './ui/input';
-import { Button } from './ui/button';
-import { Label } from './ui/label';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
-import { Alert, AlertDescription } from './ui/alert';
+import { useAuth } from '../context/AuthContext';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/card';
+import { Input } from '../components/input';
+import { Button } from '../components/button';
+import { Label } from '../components/label';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/select';
+import { Alert, AlertDescription } from '../components/alert';
 import '../styles/style.css';
 
 export function SignupPage({ onNavigateToLogin }) {
